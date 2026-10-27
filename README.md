@@ -1,6 +1,17 @@
 # ETHGlobal idea bank: EF tracks, CROPS, Whitechain
 
-Working notes for picking a hackathon build. Status: brainstorm. Facts marked "verify" still need checking against primary sources. Deeper research notes will land in `research_notes/` and `reports/`.
+Working notes for picking a hackathon build for ETHGlobal Mumbai (5 to 7 Nov 2026). This file is the first brainstorm; the reports and plans below supersede it where they conflict.
+
+## What is in this repo
+
+| Path | What it is |
+|---|---|
+| `reports/EF tracks and Whitechain ideas.md` | EF goals and gaps, Anon-RPC, alt mempool, CROPS, Whitechain, private payroll, judging rules, ranked ideas |
+| `reports/ETHGlobal finalist ideas 2023 to 2026.md` | All 320 ETHGlobal finalists (Oct 2023 to Oct 2026), finalist patterns, crowded and open themes, eleven new Mumbai proposals |
+| `research_notes/EF tracks and Whitechain ideas/` | Source notes behind the first report, including verbatim prize and judging text |
+| `research_notes/ETHGlobal finalist ideas 2023 to 2026/` | Per-period finalist catalogues with one row per finalist |
+| `plans/` | Five full build plans (A Lightfoot, B Dapp Leak Report, C Chupke, D NullRelay, E SameBuild) |
+| `plans/reviews/` | Simulated judge reviews of the plans (EF Access Layer, alt mempool team, Whitechain, ETHGlobal finalist panel) |
 
 ## Prize tracks (Ethereum Foundation)
 

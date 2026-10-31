@@ -1,6 +1,6 @@
 # Build guides for the ten finalist ideas
 
-Written 2026-10-31 for ETHGlobal Mumbai (hacking Thu 5 Nov 21:00 IST to submissions Sat 7 Nov 09:00 IST). One guide per idea from `track_ideas/finalist_ideas.md`, plus `00_common.md` for everything they share. Each guide covers: summary, promise and prize stack with verbatim requirements; architecture; repo layout and scaffold commands; dependencies with versions checked on npm today; components in plain English; milestones with acceptance tests and owners; an hour-by-hour plan for A, B and C with gates, pivot rule and cut order; pre-event checklist; test plan; the 4 minute demo and the 2:00 to 2:59 video; README draft (CROPS section where an EF prize is in the stack); UI/UX screens, states and copy; risks; the 8 hardest Q and A questions; AI usage.
+Written 2026-10-31 for ETHGlobal Mumbai (hacking Thu 5 Nov 21:00 IST to submissions Sat 7 Nov 09:00 IST). One guide per idea from `track_ideas/finalist_ideas.md` (01 to 10), four one-track picks for EF and World (11 to 14), plus `00_common.md` for everything they share. Each guide covers: summary, promise and prize stack with verbatim requirements; architecture; repo layout and scaffold commands; dependencies with versions checked on npm today; components in plain English; milestones with acceptance tests and owners; an hour-by-hour plan for A, B and C with gates, pivot rule and cut order; pre-event checklist; test plan; the 4 minute demo and the 2:00 to 2:59 video; README draft (CROPS section where an EF prize is in the stack); UI/UX screens, states and copy; risks; the 8 hardest Q and A questions; AI usage.
 
 **No code in these files, by design.** The Classic rule forbids "prior project-specific code, designs, or assets" ([details page](https://ethglobal.com/events/mumbai/info/details)). Contracts are described in plain English; every interface, line of code and screen is written after Thursday 21:00. Ask ETHGlobal staff at registration whether these notes may be committed under `planning/` (`00_common.md` section 0).
 
@@ -20,6 +20,19 @@ Everything except the prize names is Judgement. Hours are person-hours from `tra
 | 8 | [Last Out](08_last_out.md) | Definitive; World IDKit | 47 | 55% to 65% | 1271 account, Flash submit check, onchain EIP-712 rebuild | Fri 01:00: Flash rejects an order the account refuses | Called It (Definitive rank 2) |
 | 9 | [Reserve Gate](09_reserve_gate.md) | 1inch Aqua; Chainlink CRE | 50 to 55 | 55% | CRE against a local fork, two forks, three makers | hour 2: `cre workflow simulate` reads a local Anvil RPC | Standing Repo (1inch rank 4) |
 | 10 | [HookBreak](10_hookbreak.md) | Uniswap | 55 | 45% | dumped states, harness, overnight Bunni campaign | Fri 06:00 Cork; Fri 18:00 Bunni (finalist claim only if it falls) | Exit Ledger (Uniswap rank 4) |
+
+## One-track picks for EF and World (added 2026-11-01)
+
+Four new ideas, written after the ten above, each aimed at one EF or World track and simple to explain in one sentence. None comes from the harness lists.
+
+| # | Guide | One sentence | Prizes | Person-hours | P(demo) | Gate 1 | Pivot |
+|---|---|---|---|---|---|---|---|
+| 11 | [Coldstart](11_coldstart.md) | A link pays a brand-new wallet with 0 ETH; the payment covers its own gas, no relayer | EF alt mempool | about 40 | 60% | Fri 01:00: a claim to a 0 ETH address admitted, frame introspection opcodes live | Really You, or one envelope per packet plus an ERC-20 paymaster |
+| 12 | [Really You](12_really_you.md) | A finance agent pays no new payee until the person asking passes a fresh World ID check | World Agent Pass | about 40 | 75% | hour 1: two mocked identities; Fri 01:00: device flow validated | code flow; scripted agent |
+| 13 | [Daypass](13_daypass.md) | Every human gets a daily allowance of anonymous RPC calls, so providers stop blocking Tor | EF Anon-RPC; World IDKit | about 45 | 65% | Fri 01:00: token header through tor-js and a verified Selfie Check | token in the body; Proof of Human |
+| 14 | [Ghostproof](14_ghostproof.md) | An npm release counts only if its maintainer is present on camera for that exact file | World IDKit | about 40 | 70% | Fri 01:00: same nullifier on a repeat Selfie Check | session proofs; Proof of Human |
+
+**Choosing among the four (Judgement).** Build one. **Daypass** is the default: one story, two sponsors, a problem the EF judges know from their own exits, and its riskiest unknown is checkable in hour one. **Coldstart** is the most novel demo, but it depends on devnet opcodes that are unverified today. **Really You** is the safest build. **Ghostproof** is the smallest prize.
 
 ## How to choose (Judgement)
 

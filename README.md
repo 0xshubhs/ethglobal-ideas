@@ -13,7 +13,7 @@ Working notes for picking a hackathon build for ETHGlobal Mumbai (5 to 7 Nov 202
 | `plans/` | Five full build plans (A Lightfoot, B Dapp Leak Report, C Chupke, D NullRelay, E SameBuild) |
 | `plans/reviews/` | Simulated judge reviews of the plans (EF Access Layer, alt mempool team, Whitechain, ETHGlobal finalist panel) |
 | `track_ideas/` | Harness output: per-sponsor histories and judged ideas, track combos, workshop questions, ten finalist ideas (start at `track_ideas/INDEX.md`) |
-| `build_guides/` | Step-by-step build guides for the ten finalist ideas: architecture, milestones, hour-by-hour plan, UI/UX, demo, README drafts, Q and A (start at `build_guides/README.md`) |
+| `build_guides/` | Step-by-step build guides for the ten finalist ideas plus four one-track picks for EF and World (Coldstart, Really You, Daypass, Ghostproof): architecture, milestones, hour-by-hour plan, UI/UX, demo, README drafts, Q and A (start at `build_guides/README.md`) |
 
 ## Prize tracks (Ethereum Foundation)
 
